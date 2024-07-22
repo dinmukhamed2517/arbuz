@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423829130729",
+    "project_id": "arbuz-copy",
+    "storage_bucket": "arbuz-copy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423829130729:android:30a606212c2167f52f8f78",
+        "android_client_info": {
+          "package_name": "kz.sdk.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANIH0lvNKWFGduUqq628Sii7L3xe72j_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

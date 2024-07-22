@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/cart"
+        android:name="kz.sdk.myapplication.fragments.CartFragment"
+        android:label="CartFragment" />
+    <fragment
+        android:id="@+id/home"
+        android:name="kz.sdk.myapplication.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_home_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="kz.sdk.myapplication.fragments.ProductDetailsFragment"
+        android:label="ProductDetailsFragment" >
+        <argument
+            android:name="product"
+            app:argType="kz.sdk.myapplication.Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="kz.sdk.myapplication.fragments.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="kz.sdk.myapplication.fragments.LoginFragment"
+        android:label="LoginFragment" />
+</navigation>
